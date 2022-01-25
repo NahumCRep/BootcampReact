@@ -1,0 +1,31 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.global-btns{
+  width: 100%;
+  height: 60px;
+  background-color: silver;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.global-btns button{
+  width: 200px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.cuadricula{
+  width: 90%;
+  margin: auto;
+  display: grid;
+  margin: 20px auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+

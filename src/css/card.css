@@ -1,0 +1,36 @@
+.card{
+    background-color: #AEB6BF;
+    /* width: fit-content; */
+    height: auto;
+    padding: 30px;
+}
+
+.card-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card button{
+    /* width: fit-content; */
+    height: 40px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn-op{
+    width: 50px;
+}
+
+.btn-delete{
+    width: 50px;
+    background-color: red;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-delete:hover {
+    background-color: #EC7063;
+}
